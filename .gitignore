@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated logs (keep the folder)
+logs/*
+!logs/.gitkeep
+
+# Generated blogs (keep the folder)
+output/*
+!output/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db

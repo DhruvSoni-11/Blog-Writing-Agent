@@ -1,0 +1,10 @@
+# BlogForge AI - pinned to versions verified together on Python 3.12
+langgraph>=1.2.15,<2.0
+openai>=3.31.0,<4.0          # OpenAI-compatible client, pointed at OpenRouter
+pydantic>=2.14.1,<3.0
+python-dotenv>=1.2.4,<2.0
+rich>=15.0.0,<16.0
+tavily-python>=0.8.5,<1.0
+ddgs>=9.16.0,<10.0           # DuckDuckGo search (successor of duckduckgo-search)
+httpx>=0.28.1,<1.0           # used for the OpenRouter model-availability check
+pytest>=9.1.1,<10.0
